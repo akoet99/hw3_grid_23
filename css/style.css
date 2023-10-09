@@ -102,7 +102,6 @@ footer{
 nav ul li{
   display:inline-block;
   text-align:right;
-  margin-bottom: 20px;
 }
 
 
@@ -179,14 +178,6 @@ first div in the grid  and place it in the grid. */
 .about, .method, .clients, .contact{
   grid-column: 2;
 }
-.about h2, .method h2, .clients h2, .contact h2{
-  font-size: 32px;
-  line-height: 1.5;
-}
-.about p, .method p, .clients p, .contact p{
-  font-size: 18px;
-  line-height: 1.15;
-}
 .about{
   grid-row: 2;
 }
@@ -220,15 +211,13 @@ first div in the grid  and place it in the grid. */
   grid-row: 5;
   overflow: hidden;
 }
+
  /* Step 8: Write the selector/rule property to style the .text-block class. */
 .text-block{
   display:inline-block;
   text-align: center;
 }
-footer p{
-  background-color: black;
-  padding-top: 30px;
-}
+
 /* Add your media query here */
 @media screen and (min-width: 800px){
   /* Step 9: Write the selector/rule property to style the nav element */
